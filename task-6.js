@@ -3,7 +3,7 @@ let input;
 let total = 0;
 
 while (input !== null) {
-    input = prompt("Введіть номер, будь-ласка:");
+    input = prompt("Введіть число, будь-ласка:");
 
     if (input !== null) {
         let num=(Number(input));
