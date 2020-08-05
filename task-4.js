@@ -3,7 +3,7 @@ let credits = 23580;
 let pricePerDroid = 3000;
 let message;
 let number = prompt("Скільки дроїдів бажаєте замовити?");
- if (number == null) {
+ if (number === null) {
    console.log(message = 'Скасовано користувачем!');
  } else {
     console.log(pricePerDroid * number);
